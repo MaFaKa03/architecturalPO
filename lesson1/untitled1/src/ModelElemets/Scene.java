@@ -2,14 +2,14 @@ package ModelElemets;
 
 import java.util.List;
 
-public class Scene {
+public class Scene<T> {
     int id;
     List<PoligonalModal> modals;
     List<Flash> flashes;
-    public int method1(int test){
-        return 1;
+    public T method1(T t){
+        return t;
     }
-    public String method2(String test, int num){
-        return "Good";
+    public T method2(T t1, T t2){
+        return t1;
     }
 }
